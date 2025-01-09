@@ -1,3 +1,4 @@
+import csv
 
 #todo Aufgabe 0
 #ERstelle Variable
@@ -52,4 +53,12 @@ while i <= 100:
 
 
 #Aufgabe 5
+with open("persons.txt", encoding="utf-8", newline="", mode="r") as f:
+    #print(f.readlines()[4])
+    print(f.readlines()[4][4])
+
+
+
+
+
 
